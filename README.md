@@ -1,1 +1,1 @@
-Revisiting GANS for the purpose of Imitation Learning.
+Revisiting GANS for the purpose of Imitation Learning, work in progress.
