@@ -86,7 +86,7 @@ def segmentation_map(IMAGE_PATH):
     
     Arguments : Path of the image 
     
-    Returns : The segmentation map as a Torch Tensor
+    Returns : The segmentation map as a Torch Tensor and it's image
     
     """
     img = Image.open(IMAGE_PATH)
