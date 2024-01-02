@@ -7,7 +7,7 @@ noise_vector = torch.rand(19)
 real_sample = torch.rand(128)
 NOISE_DIMENSION = noise_vector.shape[0]
 generator = Generator(NOISE_DIMENSION, 128)
-discriminator = Discrimiator(128)
+discriminator = Discriminator(128)
 EPOCHS = 100
 
 gen_optim = optim.Adam(generator.parameters(), lr=0.0002)
